@@ -1,0 +1,74 @@
+body {
+	background-color: #2b2b2b;
+}
+
+.anim_container {
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -50%);
+	width: 470px;
+	height: 470px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.anim_element {
+	border-radius: 50%;
+	position: absolute;
+	animation: animation 5s ease-in-out infinite;
+}
+
+.anim_element:nth-child(1) {
+	width: 101px;
+	height: 101px;
+	animation-delay: 0s;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 242, 0));
+	box-shadow: 0px 0px 4px 4px rgba(165, 189, 23, 0.4);
+}
+
+.anim_element:nth-child(1):checked {
+	box-shadow: 0px 0px 10px 10px rgba(180, 215, 6, 0.4);
+}
+
+.circle {
+    width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #000000;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -50%);
+}
+
+@keyframes animation {
+	0% {
+		right: calc(50% - 60px);
+		top: calc(50% - 60px);
+	}
+
+	25% {
+		right: calc(50% - 60px + 8px);
+		top: calc(50% - 60px + 8px);
+	}
+
+	50% {
+		right: calc(50% - 60px + 20px);
+		top: calc(50% - 60px + 20px);
+	}
+
+	75% {
+		right: calc(50% - 60px + 8px);
+		top: calc(50% - 60px + 8px);
+	}
+
+	100% {
+		right: calc(50% - 60px);
+		top: calc(50% - 60px);
+	}
+}
+
+
+

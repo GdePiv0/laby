@@ -1,0 +1,12 @@
+#div_1,
+#div_2{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+h2{
+    font-size: 0.8em;
+}
+h3{
+    font-size: 0.8rem;
+}

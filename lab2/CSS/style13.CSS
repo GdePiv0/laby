@@ -1,0 +1,27 @@
+.box{
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #00ff1a; 
+    color: #fff; 
+    font-size: 3em; 
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.5); 
+    transition: 0.3s;
+    position: relative;
+    top: 3; left: 3;
+}
+.btn:hover{
+    background-color: rgb(255, 0, 0);
+}
+.btn:active {
+    box-shadow: none;
+    top: 5px; left: 5px;
+   
+   }

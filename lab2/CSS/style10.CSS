@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(201, 152, 104);
+}
+.font {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .text {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
