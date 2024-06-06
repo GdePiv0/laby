@@ -1,0 +1,21 @@
+#wrapper {
+	display: flex;
+	height: 100px;
+	width: 100%;
+}
+
+#sidebar {
+	width: 30px;
+	flex-shrink: 0;
+	background-color: gainsboro;
+	padding: 20px;
+	text-align: left;
+}
+
+#content {
+	width: 70%;
+	flex-grow: 1;
+	padding: 20px;
+	background-color: green;
+	text-align: left;
+}
